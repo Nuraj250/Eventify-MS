@@ -6,5 +6,6 @@ import com.eventify.user.dto.UserDTO;
 
 public interface UserService {
     AuthResponse registerUser(UserDTO userDTO);
+
     AuthResponse loginUser(LoginRequest loginRequest);
 }
