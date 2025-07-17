@@ -1,10 +1,13 @@
 package com.eventify.user_service;
 
-import com.eventify.user.model.User;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-import java.util.Optional;
-
-public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User> findByEmail(String email);
-}}
+@SpringBootApplication
+@EnableDiscoveryClient
+public class UserServiceApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(UserServiceApplication.class, args);
+    }
+}

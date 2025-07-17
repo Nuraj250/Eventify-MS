@@ -8,4 +8,6 @@ public interface UserService {
     AuthResponse registerUser(UserDTO userDTO);
 
     AuthResponse loginUser(LoginRequest loginRequest);
+
+    void updateUserRole(Long userId, String newRole);
 }

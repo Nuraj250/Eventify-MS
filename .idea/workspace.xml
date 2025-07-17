@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="user_service" />
+    <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="user_service modify">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/config/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/dto/UpdateRoleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/impl/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +58,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -59,6 +73,36 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Eventify-MS\user-service\src\main\java\com\eventify\user_service" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="User Service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,6 +124,8 @@
       <workItem from="1752511237792" duration="7000" />
       <workItem from="1752511346717" duration="781000" />
       <workItem from="1752583653866" duration="1409000" />
+      <workItem from="1752656297043" duration="1381000" />
+      <workItem from="1752729737764" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="user-service">
       <option name="closed" value="true" />
@@ -129,17 +175,37 @@
       <option name="project" value="LOCAL" />
       <updated>1752585160216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="user_service modify">
+      <option name="closed" value="true" />
+      <created>1752656378975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752656378975</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="user-service" />
     <MESSAGE value="user-service up1" />
     <MESSAGE value="service up1" />
     <MESSAGE value="user_service" />
-    <option name="LAST_COMMIT_MESSAGE" value="user_service" />
+    <MESSAGE value="user_service modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="user_service modify" />
   </component>
 </project>

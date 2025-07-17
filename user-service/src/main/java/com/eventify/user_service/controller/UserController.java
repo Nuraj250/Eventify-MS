@@ -24,4 +24,22 @@ public class UserController {
     public ResponseEntity<AuthResponse> login(@RequestBody LoginRequest loginRequest) {
         return ResponseEntity.ok(userService.loginUser(loginRequest));
     }
+
+    @GetMapping("/profile")
+    public ResponseEntity<UserDTO> getProfile(Authentication authentication) {
+        User user = (User) authentication.getPrincipal();
+
+        UserDTO userDTO = UserDTO.builder()
+                .name(user.getName())
+                .email(user.getEmail())
+                .build();
+
+        return ResponseEntity.ok(userDTO);
+    }
+
+    @GetMapping("/admin/dashboard")
+    public ResponseEntity<String> adminDashboard() {
+        return ResponseEntity.ok("Welcome Admin! This is your dashboard.");
+    }
+
 }

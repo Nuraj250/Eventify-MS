@@ -18,6 +18,7 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
+    private final JwtService jwtService;
 
     @Override
     public AuthResponse registerUser(UserDTO dto) {
@@ -43,9 +44,25 @@ public class UserServiceImpl implements UserService {
         if (userOpt.isPresent()) {
             User user = userOpt.get();
             if (passwordEncoder.matches(loginRequest.getPassword(), user.getPassword())) {
-                return new AuthResponse("Login successful", null); // Later: include JWT token
+                String token = jwtService.generateToken(user.getEmail(), user.getRole());
+                return new AuthResponse("Login successful", token);
             }
         }
         return new AuthResponse("Invalid credentials", null);
+    }
+
+    @Override
+    public void updateUserRole(Long userId, String newRole) {
+        List<String> allowedRoles = List.of("USER", "ADMIN");
+
+        if (!allowedRoles.contains(newRole.toUpperCase())) {
+            throw new IllegalArgumentException("Invalid role: " + newRole);
+        }
+
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        user.setRole(newRole.toUpperCase());
+        userRepository.save(user);
     }
 }
