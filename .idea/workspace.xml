@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="event_service modify">
-      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/eventify/event_service/config/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/eventify/event_service/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/eventify/event_service/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/eventify/event_service/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/eventify/event_service/service/impl/EventServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/eventify/event_service/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/BookingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +119,7 @@
       <workItem from="1752656297043" duration="1381000" />
       <workItem from="1752729737764" duration="6105000" />
       <workItem from="1752912954216" duration="2469000" />
+      <workItem from="1752984582246" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="user-service">
       <option name="closed" value="true" />
@@ -197,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752913448401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="event_service modify">
+      <option name="closed" value="true" />
+      <created>1752984621528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752984621528</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
