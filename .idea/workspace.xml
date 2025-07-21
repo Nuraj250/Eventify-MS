@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="booking_service modify" />
+    <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="booking_service modify">
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/dto/BookingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/dto/CreateBookingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/dto/UpdateBookingStatusRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +122,8 @@
       <workItem from="1752656297043" duration="1381000" />
       <workItem from="1752729737764" duration="6105000" />
       <workItem from="1752912954216" duration="2469000" />
-      <workItem from="1752984582246" duration="1664000" />
+      <workItem from="1752984582246" duration="3359000" />
+      <workItem from="1753085183462" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="user-service">
       <option name="closed" value="true" />
@@ -206,7 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752984885021</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="booking_service modify">
+      <option name="closed" value="true" />
+      <created>1752991035248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752991035248</updated>
+    </task>
+    <task id="LOCAL-00013" summary="booking_service modify">
+      <option name="closed" value="true" />
+      <created>1752991099996</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752991099996</updated>
+    </task>
+    <task id="LOCAL-00014" summary="booking_service modify">
+      <option name="closed" value="true" />
+      <created>1752991170065</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752991170065</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
