@@ -1,11 +1,11 @@
 package com.eventify.user_service.service.impl;
 
-import com.eventify.user.dto.AuthResponse;
-import com.eventify.user.dto.LoginRequest;
-import com.eventify.user.dto.UserDTO;
-import com.eventify.user.model.User;
-import com.eventify.user.repository.UserRepository;
-import com.eventify.user.service.UserService;
+import com.eventify.user_service.dto.AuthResponse;
+import com.eventify.user_service.dto.LoginRequest;
+import com.eventify.user_service.dto.UserDTO;
+import com.eventify.user_service.model.User;
+import com.eventify.user_service.repository.UserRepository;
+import com.eventify.user_service.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

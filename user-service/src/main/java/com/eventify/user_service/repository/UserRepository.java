@@ -1,6 +1,6 @@
 package com.eventify.user_service.repository;
 
-import com.eventify.user.model.User;
+import com.eventify.user_service.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

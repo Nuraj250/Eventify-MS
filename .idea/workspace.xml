@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="booking_service modify">
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/dto/BookingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/dto/CreateBookingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/dto/UpdateBookingStatusRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/repository/BookingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/service/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/eventify/booking_service/service/impl/BookingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/config/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/config/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/eventify/user_service/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +127,7 @@
       <workItem from="1752729737764" duration="6105000" />
       <workItem from="1752912954216" duration="2469000" />
       <workItem from="1752984582246" duration="3359000" />
-      <workItem from="1753085183462" duration="181000" />
+      <workItem from="1753085183462" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="user-service">
       <option name="closed" value="true" />
@@ -237,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752991170065</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="booking_service modify">
+      <option name="closed" value="true" />
+      <created>1753085392878</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753085392878</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

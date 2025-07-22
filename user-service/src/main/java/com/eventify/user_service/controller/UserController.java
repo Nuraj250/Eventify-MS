@@ -1,9 +1,9 @@
 package com.eventify.user_service.controller;
 
-import com.eventify.user.dto.AuthResponse;
-import com.eventify.user.dto.LoginRequest;
-import com.eventify.user.dto.UserDTO;
-import com.eventify.user.service.UserService;
+import com.eventify.user_service.dto.AuthResponse;
+import com.eventify.user_service.dto.LoginRequest;
+import com.eventify.user_service.dto.UserDTO;
+import com.eventify.user_service.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

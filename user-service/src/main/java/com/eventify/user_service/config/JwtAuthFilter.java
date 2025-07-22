@@ -1,8 +1,8 @@
 package com.eventify.user_service.config;
 
-import com.eventify.user.service.JwtService;
-import com.eventify.user.repository.UserRepository;
-import com.eventify.user.model.User;
+import com.eventify.user_service.service.JwtService;
+import com.eventify.user_service.repository.UserRepository;
+import com.eventify.user_service.model.User;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
