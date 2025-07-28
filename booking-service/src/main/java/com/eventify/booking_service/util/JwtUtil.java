@@ -32,4 +32,13 @@ public class JwtUtil {
                 ? header.substring(7)
                 : null;
     }
+
+    public boolean isTokenValid(String token) {
+        try {
+            Jwts.parser().setSigningKey(secret).parseClaimsJws(token);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }
