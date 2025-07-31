@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="booking_service modify" />
+    <list default="true" id="6c5ade13-6df0-44ba-ade1-cda1fdcc50f2" name="Changes" comment="notification-service modify">
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/eventify/notification_service/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/eventify/notification_service/dto/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/eventify/notification_service/model/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/eventify/notification_service/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/eventify/notification_service/service/impl/NotificationServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,31 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Eventify-MS/user-service/src/main/java/com/eventify/user_service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/Eventify-MS/user-service/src/main/java/com/eventify/user_service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Eventify-MS\user-service\src\main\java\com\eventify\user_service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Eventify-MS" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,6 +131,7 @@
       <workItem from="1753155026329" duration="1044000" />
       <workItem from="1753547708493" duration="653000" />
       <workItem from="1753721048187" duration="1218000" />
+      <workItem from="1753807887463" duration="3263000" />
     </task>
     <task id="LOCAL-00001" summary="user-service">
       <option name="closed" value="true" />
@@ -282,7 +293,39 @@
       <option name="project" value="LOCAL" />
       <updated>1753721255830</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="notification-service modify">
+      <option name="closed" value="true" />
+      <created>1753808509088</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1753808509088</updated>
+    </task>
+    <task id="LOCAL-00022" summary="notification-service modify">
+      <option name="closed" value="true" />
+      <created>1753809216843</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1753809216843</updated>
+    </task>
+    <task id="LOCAL-00023" summary="notification-service modify">
+      <option name="closed" value="true" />
+      <created>1753810089742</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753810089742</updated>
+    </task>
+    <task id="LOCAL-00024" summary="notification-service modify">
+      <option name="closed" value="true" />
+      <created>1753810229482</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1753810229482</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +350,7 @@
     <MESSAGE value="user_service modify" />
     <MESSAGE value="event_service modify" />
     <MESSAGE value="booking_service modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="booking_service modify" />
+    <MESSAGE value="notification-service modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="notification-service modify" />
   </component>
 </project>
