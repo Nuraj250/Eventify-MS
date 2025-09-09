@@ -8,5 +8,5 @@ import java.util.List;
 public interface PaymentService {
     PaymentResponse makePayment(PaymentRequest request);
     List<PaymentResponse> getPaymentsByUser(Long userId);
-    List<PaymentResponse> getAllPayments(); // For admin
+    List<PaymentResponse> getAllPayments();
 }
